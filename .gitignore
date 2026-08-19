@@ -1,0 +1,23 @@
+# Operating System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables & secrets
+*.env
+*.pem
+*.key
+.secrets/
+
+# Build artifacts & dependencies
+node_modules/
+dist/
+build/
+*.log
+
+# Docker temporary files
+.docker/
+
+# SonarQube cache
+.scannerwork/
