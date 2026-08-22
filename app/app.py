@@ -3,13 +3,6 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# FAKE RSA PRIVATE KEY FOR GITLEAKS DIAGNOSTIC
-DUMMY_PRIVATE_KEY = """
------BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAz831
------END RSA PRIVATE KEY-----
-"""
-
 @app.route('/')
 def home():
     return jsonify({"status": "success", "message": "DevSecOps Pipeline App Active"})
