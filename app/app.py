@@ -3,8 +3,6 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# INTENTIONAL HARDCODED SECRET FOR PHASE 7 TESTING
-AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE_SECRET_KEY_FOR_TESTING"
 
 @app.route('/')
 def home():
